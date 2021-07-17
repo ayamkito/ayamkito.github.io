@@ -1,0 +1,85 @@
+header.index{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+header img.right{
+  float: right;
+}
+header img{
+  margin-top: 1%;
+}
+h1{
+  text-align: center;
+}
+main{
+  width: 100%;
+  min-height: 600px;
+  /* border: 2px solid black; */
+}
+div img{
+  width: 100%;
+  height: inherit;
+}
+section.section1{
+  border:2px solid black;
+  min-height: 600px;
+  background-color: pink;
+  color: white;
+}
+
+section > div > div > div{
+  height: 200px;
+  float: left;
+  /* background-color: green; */
+  margin:10px;
+}
+section > div > div .right{
+  /* background-color: blue; */
+  margin-left: 30px;
+}
+section > div > div {
+  margin-left: 100px;
+  /* background-color: red; */
+  /* border: 2px solid white; */
+}
+.small-box{
+  /* border: 2px solid red; */
+  width: 30%;
+}
+.long-box{
+  width: 55%;
+  /* border: 2px solid blue; */
+}
+/* ...........................section 2.................................. */
+.section2 h1{
+  /* float: left; */
+  text-align: left;
+}
+/* ..............................section3.................... */
+.section3 h1{
+  text-align: left;
+}
+/* .............................section4................................. */
+table{
+  border: 2px solid black;
+}
+/* ...................................section5.................. */
+address>div>img{
+  height: 5%;
+  width: 5%;
+}
+/* ////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* .................................hiking....................... */
+.images-container{
+  border: 2px solid red;
+  height: 300px;
+  width: 100%;
+}
+.images-container > div {
+  height: 90%;
+  width: 30%;
+  float: left;
+  margin: 25px 10px;
+}
