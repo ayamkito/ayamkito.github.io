@@ -146,7 +146,7 @@ input[type="text"],input[type="email"]{
 }
 /* input[type="textarea"] */
 .textarea{
-  width: 98%;\
+  width: 98%;
   /* background-color: yellow; */
 }
 input[type="submit"]{
