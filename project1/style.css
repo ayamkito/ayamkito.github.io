@@ -108,11 +108,14 @@ h3.general-head{
 
 
 /* ..................contact form...................... */
+.contact-form{
+  background-color: rgb(219, 218, 218);
+}
 .contact-form > p {
   text-align: center;
 }
 address {
-  background-color: red;
+  /* background-color: red; */
   width: 30%;
   padding-top: 10px;
   position: absolute;
@@ -120,7 +123,7 @@ address {
 }
 form{
   width: 70%;
-  background-color: blue;
+  /* background-color: blue; */
   position: absolute;
   right: 0
 }
@@ -139,18 +142,17 @@ section.sectio1form{
   /* display: block; */
 }
 input[type="text"],input[type="email"]{
-  width: 45%;
+  width: 48%;
 }
 /* input[type="textarea"] */
 .textarea{
-  width: 90%;\
-  background-color: yellow;
+  width: 98%;\
+  /* background-color: yellow; */
 }
 input[type="submit"]{
   background-color: black;
   color: white;
   padding: 10px;
-  margin-left: 80%;
-  /* position: absolute;
-  right: 0; */
+  margin-left: 95%;
+
 }
