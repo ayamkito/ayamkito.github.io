@@ -138,9 +138,7 @@ form > * {
   margin: 10px;
 
 }
-section.sectio1form{
-  /* display: block; */
-}
+
 input[type="text"],input[type="email"]{
   width: 48%;
 }
