@@ -71,7 +71,7 @@ address>div>img{
 }
 /* ////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-/* .................................hiking....................... */
+/* .................................hiking/northernLights....................... */
 .images-container{
   border: 2px solid red;
   height: 300px;
@@ -82,4 +82,26 @@ address>div>img{
   width: 30%;
   float: left;
   margin: 25px 10px;
+}
+div.greystyling{
+  border: 5px solid blue;
+  height: 70%;
+  padding: 12px;
+  background-color: grey;
+  overflow: auto;
+}
+h3.general-head{
+  text-align: center;
+}
+
+.general-foot{
+  text-align: center;
+}
+.general-foot a {
+  margin:3%;
+}
+.general-foot > div{
+  margin-bottom:5px;
+  padding: 20px;
+  /* background-color:red; */
 }
