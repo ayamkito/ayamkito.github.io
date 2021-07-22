@@ -1,0 +1,20 @@
+main{
+  background-color: grey;
+  min-height: 100px;
+  width: 100%;
+}
+img{
+  height: 300px;
+}
+.hand{
+  /* animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation: move 2s infinite 1s; */
+  /* transform: rotate(30deg); */
+  animation: clock 3s infinite 5s;
+}
+@keyframes clock {
+  
+}
