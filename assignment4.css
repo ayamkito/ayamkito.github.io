@@ -1,20 +1,45 @@
 main{
-  background-color: grey;
-  min-height: 100px;
+  /* background-color: grey; */
+  height: 400px;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-img{
-  height: 300px;
+.clock-box{
+  /* background-color: red; */
+  height: inherit;
+  width: 400px;
+  /* border: 2px solid green; */
+  position: fixed;
 }
-.hand{
-  /* animation-name: move;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-delay: 3s;
-  animation: move 2s infinite 1s; */
-  /* transform: rotate(30deg); */
-  animation: clock 3s infinite 5s;
+.clock-frame{
+  height: inherit;
+  width: auto;
+  position: fixed;
+  /* background-color: yellow; */
 }
-@keyframes clock {
-  
+.clock-box > .long-hand{
+  width: 150px;
+  padding: 160px 50px 165px 200px;
+  position: fixed;
+  /* border: 1px solid gold; */
+  /* background-color: purple; */
+  animation: longhand 10s infinite;
+  transform:rotate(270deg);
+}
+@keyframes longhand {
+  /* 0%{transform: rotate(270deg);} */
+  100%{transform: rotate(630deg);}
+}
+.short-hand{
+  width: 100px;
+  padding: 174px 100px 174px 200px;
+  position: fixed;
+  /* border: 1px solid red; */
+  animation: shorthand 10s infinite;
+  /* background-color: pink; */
+}
+@keyframes shorthand {
+  100%{transform: rotate(30deg);}
 }
