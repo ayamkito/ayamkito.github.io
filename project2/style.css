@@ -1,0 +1,28 @@
+body{
+  background-color: lightyellow;
+}
+
+footer{
+  background-color: chocolate;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.social-container > *{
+  width: auto;
+  height: auto;
+}
+.social-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 2px solid gold;
+}
+.social-container > .social{
+  display: inherit;
+  justify-content: space-around;
+  border: 2px solid green;
+}
