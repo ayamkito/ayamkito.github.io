@@ -40,7 +40,7 @@ main{
     pointer-events: none;
     position: fixed;
     top: 0;
-    padding:30% 20% 50% 20%;
+    padding:5% 20% 50% 20%;
     opacity: 0;
 }
 .modal1:target{
