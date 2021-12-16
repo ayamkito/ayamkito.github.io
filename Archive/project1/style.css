@@ -1,0 +1,156 @@
+header.index{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+header img.right{
+  float: right;
+}
+header img{
+  margin-top: 1%;
+}
+h1{
+  text-align: center;
+}
+main{
+  width: 100%;
+  min-height: 600px;
+  /* border: 2px solid black; */
+}
+div img{
+  width: 100%;
+  height: inherit;
+}
+section.section1{
+  border:2px solid black;
+  min-height: 600px;
+  background-color: pink;
+  color: white;
+}
+
+section > div > div > div{
+  height: 200px;
+  float: left;
+  /* background-color: green; */
+  margin:10px;
+}
+section > div > div .right{
+  /* background-color: blue; */
+  margin-left: 30px;
+}
+section > div > div {
+  margin-left: 100px;
+  /* background-color: red; */
+  /* border: 2px solid white; */
+}
+.small-box{
+  /* border: 2px solid red; */
+  width: 30%;
+}
+.long-box{
+  width: 55%;
+  /* border: 2px solid blue; */
+}
+/* ...........................section 2.................................. */
+.section2 h1{
+  /* float: left; */
+  text-align: left;
+}
+/* ..............................section3.................... */
+.section3 h1{
+  text-align: left;
+}
+/* .............................section4................................. */
+table{
+  border: 2px solid black;
+}
+/* ...................................section5.................. */
+address>div>img{
+  height: 5%;
+  width: 5%;
+}
+/* ////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* .................................hiking/northernLights....................... */
+.images-container{
+  border: 2px solid red;
+  height: 300px;
+  width: 100%;
+}
+.images-container > div {
+  height: 90%;
+  width: 30%;
+  float: left;
+  margin: 25px 10px;
+}
+div.greystyling{
+  border: 5px solid blue;
+  height: 70%;
+  padding: 12px;
+  background-color: grey;
+  overflow: auto;
+}
+h3.general-head{
+  text-align: center;
+}
+
+.general-foot{
+  text-align: center;
+}
+.general-foot a {
+  margin:3%;
+}
+.general-foot > div{
+  margin-bottom:5px;
+  padding: 20px;
+  /* background-color:red; */
+}
+
+
+/* ..................contact form...................... */
+.contact-form{
+  background-color: rgb(219, 218, 218);
+}
+.contact-form > p {
+  text-align: center;
+}
+address {
+  /* background-color: red; */
+  width: 30%;
+  padding-top: 10px;
+  position: absolute;
+  left: 0;
+}
+form{
+  width: 70%;
+  /* background-color: blue; */
+  position: absolute;
+  right: 0
+}
+
+address > *{
+  margin: 15px;
+  /* padding-top: 10px; */
+
+}
+
+form > * {
+  margin: 10px;
+
+}
+
+input[type="text"],input[type="email"]{
+  width: 48%;
+}
+/* input[type="textarea"] */
+.textarea{
+  width: 98%;
+  /* background-color: yellow; */
+}
+input[type="submit"]{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-left: 95%;
+
+}

@@ -1,0 +1,39 @@
+body > div{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+}
+body > div > div{
+    border: 2px solid red;
+    width: 30%;
+    height: 90%;
+    float: left;
+    margin: 15px 1%;
+}
+.center-tile{
+  text-align: center;
+}
+div > h3{
+  width: 100%;
+  /* border: 2px solid blue; */
+  height: 20%;
+  margin: 10px 0 5px 0;
+  padding: 25px 0 0 0;
+}
+div > p{
+  width: 100%;
+  /* border: 2px solid blue; */
+  height: 10%;
+  margin: 10px 0 10px 0;
+  padding: 5px 0 0 0;
+}
+img{
+  width: 100%;
+  /* padding-left: 10%; */
+  /* visibility: hidden; */
+}
+div > a{
+  width: 100%;
+  /* border: 2px solid blue; */
+  height: 20%;
+}

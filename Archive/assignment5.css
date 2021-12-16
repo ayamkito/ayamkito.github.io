@@ -1,0 +1,53 @@
+main{
+    background-color: lightblue;
+    height: auto;
+    width: 100%;
+    
+}
+.section1{
+    height: auto;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.apple-container{
+    width: 40%;
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+.apple-container > img{
+    width: 80%;
+    height: 80%;
+}
+.section1 > div:nth-child(1){
+    background-color: rgb(240, 161, 161);
+}
+
+.section1 > div:nth-child(2){
+    background-color: rgba(241, 233, 233, 0.774);
+}
+
+.modal1{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    min-height: 400px;
+    background-color: rgb(68, 44, 44);
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    padding:5% 20% 50% 20%;
+    opacity: 0;
+}
+.modal1:target{
+    opacity: 0.9;
+    pointer-events: all;
+    
+}
+.modal1 > img {
+    width: 50%;
+}
