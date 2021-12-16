@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(188, 252, 252);
+    margin-left: 3%;
+}
+.h1-nyc{
+    text-align: center;
+}
+.box{
+    height: auto;
+    width: 30%;
+    float: left;
+    margin: 0 0 5% 2%;
+    min-height: 500px;
+}
+
+img{
+    width: 100%;
+}
+p{
+    height: 100px;
+    overflow: auto;
+}
+
+button{
+    margin-left: 40%;
+    width: 20%;
+}

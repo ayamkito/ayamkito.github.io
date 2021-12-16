@@ -1,0 +1,64 @@
+body{
+    background-color: aqua;
+}
+.parent{
+    position: relative;
+    border: 1px solid red;
+}
+.child{
+    position: absolute;
+    top: 10px;
+}
+
+.for-css{
+    /* for image fixed in css, see lines below */
+    background-image: url("new-york-city-guide.jpg");
+    height: 200px;
+    width: 100%;
+    /* end css image */
+}
+
+
+
+.mountain{
+    /* filter: grayscale(); */
+    border: 5px dotted black;
+}
+.mountain > img{
+    width: 100%;
+}
+.bus{
+
+    /* animation-name: moving-bus;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; */
+
+    animation: moving-bus 5s 2s;
+    animation-fill-mode: forwards;
+    top: 85%;
+    left: 0%;
+}
+@keyframes moving-bus {
+    0%{
+        top: 85%;
+        left: 0;
+    }
+    50%{
+        top: 85%;
+        left: 70%;
+    }
+    80%{
+        top: 85%;
+        left: 40%;
+    }
+    85%{ 
+        top: 85%;
+        left: 90%;
+    }
+    100%{
+        top: 85%;
+        left: 91%;
+    }
+}
+

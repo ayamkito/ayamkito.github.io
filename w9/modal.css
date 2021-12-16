@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(56, 69, 150);
+}
+.modal{
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.767);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+}
+.modal:target{
+    pointer-events: all;
+    opacity: 1;
+}
+.modal-msg{
+    height: 50%;
+    width: 50%;
+    border: 2px solid white;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(188, 252, 252);
+}
+.h1-nyc{
+    text-align: center;
+    /* use margin auto to center alighn when width is not 100% of page*/ 
+    /* margin: auto;  */
+
+}
+.box{
+    /* box-sizing: border-box; */
+    border: 2px solid red;
+    height: auto;
+    width: 40%;
+    float: left;
+    margin: 0 0 5% 7%;
+}
+
+img{
+    width: 100%;
+}

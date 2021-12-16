@@ -1,0 +1,63 @@
+body{
+    background-color: lightpink;
+}
+.slide-window{
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    margin: auto; 
+    overflow-x: hidden;
+
+}
+.all-slides{
+    width: 400%;
+    position: relative;
+    animation: allSlides 10s 1s infinite;
+    animation-fill-mode: forwards;
+}
+.slides{
+width: 25%;
+float: left;
+height: 600px;
+}
+
+.slide-one{
+    background-color: red;
+    background-image: url("new-york-city-guide.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slide-two{
+    background-color: yellow;
+    background-image: url("1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slide-three{
+    background-color: green;
+    background-image: url("northern2.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slide-four{
+    background-color: white;
+    background-image: url("iceland3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@keyframes allSlides {
+    0%{
+        /* margin-left: 0%; */
+    }
+    25%{
+        margin-left: 0%;
+    }
+    50%{
+        margin-left: -100%;
+    }
+    75%{
+        margin-left: -200%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+}

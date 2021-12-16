@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(127, 133, 218);
+}
+.clock-container{
+    background-color: rgb(126, 114, 114);
+    width: 400px;
+    height: 400px;
+    margin: 20%;
+    box-sizing: border-box;    
+    position: relative;
+}
+.frame-cont > img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.hand{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.short2-cont > img{
+    width: 30%;
+    height: 20%;
+    animation: short 10s infinite;
+    transform-origin: 0% 50%;
+    animation-fill-mode: forwards;
+    margin-left: 50%;
+    margin-top: 40%;
+    transform-origin: 0% 50%;
+    
+}
+@keyframes short {
+    100%{
+        transform: rotate(30deg);
+    }
+
+    
+}
+
+
+.long2-cont > img{
+    height: 20%;
+    width: 38%;
+    transform-origin: 0% 50%;
+    animation: long 10s infinite;
+    animation-fill-mode: forwards;
+    margin-left: 50%;
+    margin-top: 40%;
+    transform-origin: 0% 50%;
+}
+@keyframes long {
+
+    0%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform:rotate(270deg); 
+    }
+} 
