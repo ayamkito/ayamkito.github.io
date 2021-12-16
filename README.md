@@ -1,1 +1,0 @@
-#http://ayamkito.github.io
