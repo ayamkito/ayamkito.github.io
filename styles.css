@@ -104,7 +104,6 @@
 }
 
 .slides-container{
-    border: 2px solid red;
     background-color: rgba(0, 0, 0, 0.829);
     width: 98%;
     margin: auto;
@@ -133,7 +132,6 @@
     border: 5px dashed rgb(180, 173, 173) ;
     box-sizing: border-box;
 }
-
 .image-box > a{
     display: flex;
     width: 100%;
@@ -160,7 +158,6 @@
 .odd{
     background-color: rgba(30, 43, 25, 0.507);
 }
-
 .child-modal{
     margin: auto;
     position: relative;
@@ -171,7 +168,6 @@
     animation: spinner 1s linear 1s forwards;
     transition: width 1s, height 1s;
 }
-
 .child-modal:hover{
     max-width: 80%;
     height: 60%; 
@@ -185,7 +181,6 @@
         transform: rotate(360deg);
     }
 }
-
 .img-size-modal{
 width: 100%;
 height: 100%;
@@ -224,10 +219,11 @@ margin: auto;
 .bg-gray{
     background-color: rgb(189, 200, 214);
 }
+.bg-light-gr{
+    background-color: rgb(180, 192, 207);
+}
 .bg-light-dark{
-    /* background-color: rgb(128, 132, 136); */
     background-color: rgb(175, 183, 194);
-
 }
 .h-90{
     height: 90%;
@@ -248,7 +244,6 @@ margin: auto;
 .w-40{
     width: 40%!important;
 }
-
 .card-adjust{
     /* position: relative; */
     display: flex;
