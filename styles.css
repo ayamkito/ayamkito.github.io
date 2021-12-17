@@ -3,20 +3,17 @@
     background-color: rgb(211, 205, 205);
 }
 .google-engine{
-    /* width: 50%; */
     position: fixed;
     left: 0%;
 }
 .all-parent-style{
     margin: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .first-child{
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
     margin: 1%;
     background: linear-gradient(180deg, rgb(212, 199, 199), #c3c4d4, #d3baba);
-
 }
 .static-nav{
     background-color: rgb(212, 199, 199);
@@ -26,13 +23,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .navbar-bar{
     width: 90%;
     display: flex;
     margin-left: -7%;
-    
 }
 .nav-btn{
     padding: 1%;
@@ -55,7 +50,6 @@
 .left-block{
     width: 60%;
     height: 200vh;
-    
 }
 .intro-pic-container{
     width: 50%;
@@ -68,7 +62,6 @@
 .intro-pic-container > img{
     width: 100%;
     border-radius: 50%;
-    /* filter: grayscale(); */
 }
 .introduction{
     margin: auto;
@@ -81,7 +74,6 @@
     width: 30%;
     position: sticky;
     top: 10%;
-
 }
 .gallery-h{
     height: 3%;
@@ -171,7 +163,6 @@
 .child-modal:hover{
     max-width: 80%;
     height: 60%; 
-    /* background-color: rgb(21, 21, 32); */
 }
 @keyframes spinner {
     0%{
