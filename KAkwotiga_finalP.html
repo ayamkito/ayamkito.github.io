@@ -38,92 +38,101 @@
                     <li><a class="dropdown-item" href="/project2/project2.html">Project 2</a></li>
                     <li><a class="dropdown-item" href="/w5/classquiz.html">Quiz 1</a></li>
                     <li><a class="dropdown-item" href="/w11/quiz2_bootstrap.html">Quiz 2</a></li>
-                    <li><a class="dropdown-item" href="/w8/slideshowAnimation.html">Slide Show Animation</a></li>
+                    <!-- <li><a class="dropdown-item" href="/w8/slideshowAnimation.html">Slide Show Animation</a></li> -->
                 </ul>
             </li>
         </nav>
     </header>
-    <section id="projects">
+    <section id="#projects">
         <h2 class="w-75 mb-1 m-auto bg-gray shadow">Web Development Projects</h2>
-        <div class="h-90 w-75 pb-5 m-auto shadow-lg p-2 bg-gray rounded">
-            <div class="h-100 row flex justify-content-around">
-                <div class="h-100 w-30 bg-dark p-4">
-                    <a href="#modal-parent1" class="h-100 card  m-auto w-100 col text-decoration-none text-dark"
+        <div class="row w-75 mb-3 m-auto">
+            <div class="m-auto bg-gray">
+                <div class="row mb-3 m-auto">
+                    <a href="#modal-parent1"
+                        class="card-adjust card col text-dark shadow p-3 my-5 bg-dange m-auto  mx-2 w-100 text-decoration-none text-dark"
                         style="width: 18rem;">
-                        <img class="h-75 card-img-top card-hover " src="images/project1.png" alt="Card image cap"
-                            title="HTML Only Design">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <P>PROJECT ONE: HTML</P>
-                            </h5>
-                            <p class="card-text">This project uses purely HTML and incorporates in-line styling.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="h-100 w-30 bg-dark p-4">
-                    <a href="#modal-parent2" class="h-100 card m-auto w-100 col text-decoration-none text-dark"
-                        style="width: 18rem;">
-                        <img class="h-75 card-img-top card-hover " src="images/project2.png" alt="Card image cap"
-                            title="HTML and CSS Design">
-                        <div class="card-body">
-                            <h5 class="card-title">PROJECT TWO: HTML + CSS</h5>
-                            <p class="card-text">In this project, you will find the use of external styling (CSS) for
-                                all visual designs</p>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="row modals-container">
-                <div id="modal-parent1"
-                    class="parent-window w-100 h-100 flex project-1-modal col modal-css position-fixed top-0 start-0">
-                    <div class="bg-gray p-3 h-90 w-50 m-auto overflow-auto d-flex flex-column">
-                        <div class="flex justify-content-between mb-2 bg-light-gr align-items-center">
-                            <h5>PROJECT ONE</h5>
-                            <div class="bg-light ">
-                                <a href="#projects" class="text-decoration-none text-dark btn">X</a>
+                        <div class="">
+
+                            <img class="card-img-top card-hover" src="images/project1.png" alt="img">
+                            <div class="card-body">
+                                <h5 class="card-title">PROJECT ONE: HTML</h5>
+                                <p class="card-text">This project uses purely HTML and incorporates in-line styling.</p>
                             </div>
                         </div>
-                        <div class="img-box-pro h-50 flex">
-                            <img class=" h-100" src="images/project1.png" alt="modal-image"
-                                title="An HTML Exclusive Webpage">
+                    </a>
+
+                    <a href="#modal-parent2"
+                        class="card-adjust card col text-dark shadow p-3 my-5 bg-dange m-auto  mx-2 w-100 text-decoration-none text-dark"
+                        style="width: 18rem;">
+                        <div class="">
+
+                            <img class="card-img-top card-hover" src="images/project2.png" alt="css card image">
+                            <div class="card-body flex flex-column">
+                                <h5 class="card-title">PROJECT TWO: HTML + CSS</h5>
+                                <p class="card-text">In this project, you will find the use of external styling (CSS) for all visual designs... keep typing for your experiment to show that all are of the same size</p>
+                            </div>
                         </div>
-                        <div class="w-75 m-auto">
-                            Introduction to HTML only Projects
-                            <p class="float-end"><a href="/project1/index.html"> Click to View</a></p>
+                    </a>
+
+                </div>
+            </div>
+            <div>
+                <div class="row modals-container">
+                    <div id="modal-parent1"
+                        class="parent-window w-100 h-100 flex project-1-modal col modal-css position-fixed top-0 start-0">
+                        <div class="bg-gray p-3 h-90 m-auto overflow-auto d-flex flex-column">
+                            <div class="flex justify-content-between mb-2 align-items-center">
+                                <h5>PROJECT ONE</h5>
+                                <div class="bg-light ">
+                                    <a href="#projects" class="text-decoration-none text-dark btn">X</a>
+                                </div>
+                            </div>
+                            <div class="img-box-pro h-50 flex ">
+                                <img class=" h-100" src="images/project1.png" alt="modal-image"
+                                    title="An HTML Exclusive Webpage">
+                            </div>
+                            <div class="w-75 m-auto">
+                                Introduction to HTML only Projects
+                                <p class="float-end"><a href="/project1/index.html"> Click to View</a></p>
+                            </div>
+                            <a href="#projects" class="btn m-auto bg-danger">Close</a>
                         </div>
-                        <a href="#projects" class="btn m-auto bg-danger">Close</a>
+                    </div>
+                </div>
+                <div class="row modals-container">
+                    <div id="modal-parent2"
+                        class="parent-window w-100 h-100 flex project-1-modal col modal-css position-fixed top-0 start-0">
+                        <div class="bg-gray p-3 h-90 w-50 m-auto overflow-auto d-flex flex-column">
+                            <div class="flex justify-content-between mb-2 align-items-center ">
+                                <h5>PROJECT TWO</h5>
+                                <div class="bg-light ">
+                                    <a href="#projects" class="text-decoration-none text-dark btn">X</a>
+                                </div>
+                            </div>
+                            <div class="img-box-pro h-50 flex">
+                                <img class=" h-100" src="images/project2.png" alt="modal-image"
+                                    title="Using both HTML and CSS to design pages">
+                            </div>
+                            <div class="w-75 m-auto">
+                                Introduction to linking HTML to CSS for Styling purposes.
+                                <p class="float-end"><a href="project2/project2.html"> link to project</a></p>
+                            </div>
+                            <a href="#projects" class=" btn bg-danger m-auto">Close</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row modals-container">
-                <div id="modal-parent2"
-                    class="parent-window w-100 h-100 flex project-1-modal col modal-css position-fixed top-0 start-0">
-                    <div class="bg-gray p-3 h-90 w-50 m-auto overflow-auto d-flex flex-column">
-                        <div class="flex justify-content-between mb-2 bg-light-gr align-items-center ">
-                            <h5>PROJECT TWO</h5>
-                            <div class="bg-light ">
-                                <a href="#projects" class="text-decoration-none text-dark btn">X</a>
-                            </div>
-                        </div>
-                        <div class="img-box-pro h-50 flex">
-                            <img class=" h-100" src="images/project2.png" alt="modal-image"
-                                title="Using both HTML and CSS to design pages">
-                        </div>
-                        <div class="w-75 m-auto">
-                            Introduction to linking HTML to CSS for Styling purposes.
-                            <p class="float-end"><a href="project2/project2.html"> link to project</a></p>
-                        </div>
-                        <a href="#projects" class=" btn bg-danger m-auto">Close</a>
-                    </div>
-                </div>
-            </div>
+        </div>
     </section>
+
+
+
     <section id="activities" class="pt-5">
         <h2 class="bg-gray shadow w-75 mb-1 m-auto">Class Activities</h2>
         <div class="w-75 m-auto bg-gray">
             <div class="row mb-3 m-auto">
                 <div class="col text-dark ">
-                    <div class="card-adjust shadow p-3 my-5 bg-light m-auto" style="width: 18rem;">
+                    <div class="card-adjust shadow p-3 my-5 bg-light m-auto w-100" style="width: 18rem;">
                         <img class="card-img-top card-hover" src="images/html.png" alt="html card image">
                         <div class="card-body">
                             <h5 class="card-title">HTML</h5>
@@ -133,7 +142,7 @@
                     </div>
                 </div>
                 <div class="col text-dark">
-                    <div class="card-adjust shadow p-3 my-5 bg-light m-auto" style="width: 18rem;">
+                    <div class="card-adjust shadow p-3 my-5 bg-light m-auto w-100" style="width: 18rem;">
                         <img class="card-img-top card-hover" src="images/css.jpg" alt="css card image">
                         <div class="card-body flex flex-column">
                             <h5 class="card-title">CSS</h5>
@@ -144,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col text-dark">
-                    <div class="card-adjust shadow p-3 my-5 bg-light m-auto" style="width: 18rem;">
+                    <div class="card-adjust shadow p-3 my-5 bg-light m-auto w-100" style="width: 18rem;">
                         <img class="card-img-top card-hover" src="images/bootstrap.png" alt="bootstrap card img">
                         <div class="card-body">
                             <h5 class="card-title">BOOTSTRAP</h5>
@@ -178,17 +187,20 @@
                             class="bi bi-envelope">Email</a></li>
                     <li class="list-group-item bg-dark border-0"><a href="tel:+16468812314" class="bi bi-telephone">
                             Call/Text </a></li>
-                    <li class="list-group-item bg-dark border-0"><a href="w3/contacts.html"
+                    <li class="list-group-item bg-dark border-0"><a href="project1/contacts.html"
                             class="bi bi-textarea-resize">Leave Your Details</a></li>
                 </ul>
             </div>
             <div class="text-light col container flex flex-column">
                 <h6>EXTERNAL RESOURCES</h6>
                 <ul class="list-group">
-                    <li class="list-group-item bg-dark border-0"><a href="https://www.w3schools.com/">W3 Schools</a>
+                    <li class="list-group-item bg-dark border-0"><a href="https://www.w3schools.com/">W3
+                            Schools</a>
                     </li>
-                    <li class="list-group-item bg-dark border-0"><a href="https://getbootstrap.com/">Bootstrap</a></li>
-                    <li class="list-group-item bg-dark border-0"><a href="https://developer.mozilla.org/en-US/">MDN Web
+                    <li class="list-group-item bg-dark border-0"><a href="https://getbootstrap.com/">Bootstrap</a>
+                    </li>
+                    <li class="list-group-item bg-dark border-0"><a href="https://developer.mozilla.org/en-US/">MDN
+                            Web
                             Docs</a></li>
                 </ul>
             </div>
