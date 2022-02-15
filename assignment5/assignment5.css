@@ -35,7 +35,7 @@ body{
 .car-img-container{
     margin: auto;
     width: 100%;
-    min-height: auto;
+    height: 300px;
 }
 .car-img-container> img{
     width: 100%;
